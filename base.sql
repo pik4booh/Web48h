@@ -1,3 +1,6 @@
+CREATE dataBase; 
+use dataBase;
+
 CREATE TABLE `user` (
   `id` INT AUTO_INCREMENT PRIMARY KEY,
   `nom` VARCHAR(20),
