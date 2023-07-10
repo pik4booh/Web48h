@@ -1,20 +1,14 @@
 <?php
-class Login_model extends CI_Model {
+class inscription_model extends CI_Model {
   
-  public function login($nom, $mdp) {
+  public function login($nom, $email , $mdp) {
    
-    $sql = "SELECT * FROM `user` WHERE nom = '%s' and mdp = '%s' ";
-    $sql = sprintf($sql,$this->db->escape($nom), $this->db->escape($mdp));
+    $sql = "INSERT INTO `user`(`nom`, `email`, `mdp`) VALUES ('%s','%s','%s')";
+    $sql = sprintf($sql,$this->db->escape($nom),$this->db->escape($email) ,$this->db->escape($mdp));
 
     $query = $this->db->query($sql);
     
-    if ($query->num_rows() == 1) {
-      
-      return $query->row_array();
-      
-    } else {
-      return false;
-    }
+    redirect('Login');
   }
 }
 ?>
