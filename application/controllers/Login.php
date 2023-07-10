@@ -2,12 +2,13 @@
 class Login extends CI_Controller {
   
   public function index() {
+    $this->load->view('header');
     $this->load->view('login');
   }
   
   public function login() {
-    $nom = $this->input->post('nom');
-    $mdp = $this->input->post('mdp');
+    $nom = $this->input->get('nom');
+    $mdp = $this->input->get('mdp');
     
 
     $this->load->model('login_model');
