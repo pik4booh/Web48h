@@ -1,0 +1,7 @@
+txt
+IMC inférieur à 18,5 : insuffisance pondérale
+IMC entre 18,5 et 24,9 : poids normal
+IMC entre 25 et 29,9 : surpoids
+IMC entre 30 et 34,9 : obésité de classe 1
+IMC entre 35 et 39,9 : obésité de classe 2
+IMC supérieur à 40 : obésité de classe 3 (obésité sévère)
