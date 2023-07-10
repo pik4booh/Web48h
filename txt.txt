@@ -1,7 +1,31 @@
-txt
+contenu 
+
 IMC inférieur à 18,5 : insuffisance pondérale
 IMC entre 18,5 et 24,9 : poids normal
 IMC entre 25 et 29,9 : surpoids
-IMC entre 30 et 34,9 : obésité de classe 1
-IMC entre 35 et 39,9 : obésité de classe 2
-IMC supérieur à 40 : obésité de classe 3 (obésité sévère)
+
+
+
+IMC inférieur à 18,5 : insuffisance : solution gain de poids
+
+1-Poulet grillé avec quinoa et légumes sautés :
+2-Saumon au four avec patates douces rôties et asperges
+3-Salade de quinoa aux haricots noirs et avocat :
+4-Poitrine de dinde au four avec quinoa et légumes vapeur :
+5-Tofu sauté avec légumes et nouilles de riz :
+
+IMC entre 18,5 et 24,9 : poids normal : maintenir le poids 
+
+1-Bowl de poulet, quinoa et légumes
+2-Saumon en croûte de noix avec quinoa aux légumes
+3-Salade de haricots noirs et maïs avec vinaigrette à l'avocat
+4-Poêlée de tofu aux légumes avec quinoa complet
+5-Poulet grillé avec salade de quinoa, épinards et fruits
+
+IMC entre 25 et 29,9 : surpoids*
+
+1-Salade de poulet aux fruits
+2-Wraps aux légumes et au quinoa
+3-Bol de poke au saumon
+4-Curry de pois chiches et légumes
+5-Salade de quinoa aux légumes rôtis et feta
