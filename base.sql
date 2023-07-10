@@ -1,5 +1,5 @@
-CREATE dataBase; 
-use dataBase;
+CREATE dataBase regime; 
+use dataBase regime;
 
 CREATE TABLE `user` (
   `id` INT AUTO_INCREMENT PRIMARY KEY,
