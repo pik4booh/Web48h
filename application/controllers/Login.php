@@ -7,6 +7,8 @@ class Login extends CI_Controller {
   }
   
   public function login() {
+
+    $this->load->library('input');
     $nom = $this->input->get('nom');
     $mdp = $this->input->get('mdp');
     
@@ -15,7 +17,6 @@ class Login extends CI_Controller {
     $user = $this->login_model->login($nom, $mdp);
     
     if ($user) {
-      
       $this->session->set_userdata('user', $user);
       redirect('dashboard');
     } else {
