@@ -9,15 +9,16 @@ class Login extends CI_Controller {
   }
   
   public function login() {
-    $nom = $this->input->post('nom');
-    $mdp = $this->input->post('mdp');
+
+    $this->load->library('input');
+    $nom = $this->input->get('nom');
+    $mdp = $this->input->get('mdp');
     
 
     $this->load->model('login_model');
     $user = $this->login_model->login($nom, $mdp);
     
     if ($user) {
-      
       $this->session->set_userdata('user', $user);
       redirect('dashboard');
     } else {
